@@ -1,9 +1,16 @@
 {
-  "name": "@adobe/xd-plugin-toolkit-react",
-  "version": "0.0.1",
-  "description": "Adobe XD Plugin UI Components for React",
-  "main": "index.js",
-  "repository": "https://github.com/AdobeXD/plugin-toolkit-react.git",
-  "author": "Kris Nye <knye@adobe.com>",
-  "license": "Apache-2.0"
+    "name": "@adobe/xd-plugin-toolkit-react",
+    "version": "0.0.4",
+    "description": "Adobe XD Plugin UI Components for React",
+    "main": "index.js",
+    "scripts": {
+        "publish": "echo use: yarn publish --access public"
+    },
+    "repository": "https://github.com/AdobeXD/plugin-toolkit-react.git",
+    "author": "Kris Nye <knye@adobe.com>",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "react": "^16.6.1",
+        "react-dom": "^16.6.1"
+    }
 }

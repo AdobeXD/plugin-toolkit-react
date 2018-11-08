@@ -1,6 +1,6 @@
 {
     "name": "@adobe/xd-plugin-toolkit-react",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "description": "Adobe XD Plugin UI Components for React",
     "main": "lib/index.js",
     "scripts": {

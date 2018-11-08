@@ -1,0 +1,9 @@
+{
+  "name": "@adobe/xd-plugin-toolkit-react",
+  "version": "0.0.1",
+  "description": "Adobe XD Plugin UI Components for React",
+  "main": "index.js",
+  "repository": "https://github.com/AdobeXD/plugin-toolkit-react.git",
+  "author": "Kris Nye <knye@adobe.com>",
+  "license": "Apache-2.0"
+}

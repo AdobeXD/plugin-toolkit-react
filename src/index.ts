@@ -14,6 +14,10 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-export function hello(entity) {
-    return `Hello ${entity}`
-}
+//  this is a temporary shim for the latest versions of react.
+if (window.setTimeout == null) { window.setTimeout = function(){ return -1; } }
+if (window.clearTimeout == null) { window.clearTimeout = function(){}; }
+if (window.cancelAnimationFrame == null) { window.cancelAnimationFrame = function() {}; }
+if (window.requestAnimationFrame == null) { window.requestAnimationFrame = function() { return -1; } }
+
+export { default as TabList } from "./TabList/index"

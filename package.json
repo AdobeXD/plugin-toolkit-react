@@ -4,12 +4,15 @@
     "description": "Adobe XD Plugin UI Components for React",
     "main": "lib/index.js",
     "scripts": {
-        "publish": "echo use: yarn publish --access public"
+        "publish": "echo use: yarn publish --access public",
+        "watch": "tsc -w",
+        "build": "tsc"
     },
     "repository": "https://github.com/AdobeXD/plugin-toolkit-react.git",
     "author": "Kris Nye <knye@adobe.com>",
     "license": "Apache-2.0",
     "devDependencies": {
+        "typescript": "^3.4.5",
         "@types/react": "^16.4.18",
         "@types/react-dom": "^16.0.9"
     },
